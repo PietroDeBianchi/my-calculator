@@ -9,8 +9,16 @@ body {
 }
 
 main {
+  position: relative;
   width: 100vw;
   height: 100vh;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/690/005/original/technology-background-overlay-with-yellow-gradient-theme-vector.jpg);
+  background-size: cover;
+}
+
+h2 {
+  position: absolute;
+  top: 32px;
 }
 
 .d-flex-center {
@@ -21,8 +29,10 @@ main {
 
 #calculator {
   background-color: #3a4452;
-  padding: 12px;
+  padding: 16px;
   border-radius: 10px;
+  border: 2px solid #1A1A1A;
+  box-shadow: 0 0 4px 2px #ddcb0b;
 }
 #calculator .btn-row {
   display: flex;
@@ -69,4 +79,6 @@ form .double {
   width: 100%;
   min-height: 80px;
   border-radius: 12px;
+  padding: 6px;
+  font-size: 24px;
 }/*# sourceMappingURL=style.css.map */
